@@ -90,7 +90,11 @@ table {
 #popout-top {
     width: 100%;
     height: 50%;
-    background-color: #f2f0f0
+    background-color: #f2f0f0;
+    color: black;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Dosis', sans-serif;
 }
 
 #popout-bottom {
@@ -98,7 +102,11 @@ table {
     height: 50%;
     margin-left: auto;
     margin-right: auto;
-    background-color: #f2f0f0
+    background-color: #f2f0f0;
+    color: black;
+    font-size: 45px;
+    font-weight: 600;
+    font-family: 'Dosis', sans-serif;
 }
 
 .top-grid {
@@ -128,6 +136,10 @@ table {
     width: 400px;
     margin-left: 15%;
     margin-top: 40%;
+    color: black;
+    font-size: 38px;
+    font-weight: 600;
+    font-family: 'Alfa Slab One', cursive
 }
 
 .content-name {
@@ -196,14 +208,14 @@ table {
 } 
 
 #community-left {
-    flex-grow: 2;
+    flex-grow: 3;
     height: 600px;
     position: relative;
     background-color: #e0e0e0;
 }
 
 #community-right {
-    flex-grow: 5;
+    flex-grow: 6;
     height: 600px;
     position: relative;
     background-color: #e0e0e0;
@@ -263,4 +275,13 @@ table {
     margin-top: 10px;
     height: 20px;
     background-color: #c9c9c9;
+}
+
+#community-ad .article-container {
+    flex-grow: 3;
+    height: inherit;
+}
+
+#community-ad #community-right {
+    flex-grow: 6;
 }
